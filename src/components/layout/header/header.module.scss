@@ -1,0 +1,20 @@
+
+.header{
+    background-color: var(--meli-primary);
+}
+
+.headerContent{
+    display: flex;
+    @include content-base;
+    padding: 10px 0;
+    align-items: center     ;
+}
+
+.headerLogo{
+    margin-right: 15px;
+    width: 50px;
+}
+
+.headerInput{
+    flex: 1;
+}

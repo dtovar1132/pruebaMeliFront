@@ -1,0 +1,11 @@
+
+
+.main{
+    background-color: var(--meli-secondary);
+    min-height: calc(100vh - 59px);
+    padding-bottom: 25px
+}
+
+.content {
+    @include content-base;
+}

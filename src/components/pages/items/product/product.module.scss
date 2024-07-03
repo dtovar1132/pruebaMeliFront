@@ -1,0 +1,75 @@
+
+.product{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
+
+.content{
+    flex: 1;
+    .contentImage{
+        width: 100%;
+        height: auto;
+        padding: 0 15px;
+    }
+    
+    .contentTitle{
+        margin: 20px 0px;
+        font-weight: 500;
+        font-size: 1.5rem;
+    }
+    
+    .contentDescription{
+        color: var(--meli-textgary);
+        font-size: 0.9rem;
+    }
+}
+
+
+
+.buyProduct{
+    width: 28%;
+    padding-left: 10px;
+    .buyProductsold{
+        font-size: 0.8rem;
+        font-weight: 500;
+    }
+    .buyProductTitle{
+        font-size: 1.3rem;
+        font-weight: 700;
+        margin: 5px 0 10px 0;
+    }
+    .buyProductAmountContent{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        margin: 20px 0 30px 0;
+    }
+    .buyProductAmount{
+        font-size: 2rem;
+        font-weight: 600;
+    }
+    .buyProductAmountSup{
+        font-weight: 500;
+        font-size: 1rem;
+        position: relative;
+        top:5px;
+    }
+    .buyProductBtn{
+        background-color: var(--meli-blue);
+        border-color: transparent;
+        color: var(--color-white);
+        width: 100%;
+        border-radius: 6px;
+        padding: 0 24px;
+        height: 48px;
+        text-align: center;
+        font-weight: 500;
+        font-size: 1rem;
+        cursor: pointer;
+        transition: all 1s ease;
+        &:hover{
+            background-color: #2968c8;
+        }
+    }
+}

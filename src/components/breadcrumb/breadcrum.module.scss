@@ -1,0 +1,23 @@
+
+.breadcrumb{
+    display: flex;
+    min-height: 35px;
+}
+
+.breadcrumbItem {
+    padding: 15px 0px;
+    color: var(--meli-textgary);
+    font-weight: 500;
+    font-size: 0.8rem;
+    &::after{
+        padding-left: 5px;
+        padding-right: 5px;
+        content: '>';
+    }
+    &:last-child{
+        &::after{
+            content: '';
+        }
+        font-weight: bold;
+    }
+}
